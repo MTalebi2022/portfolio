@@ -33,7 +33,7 @@ const About = () => {
       <section className="align-element py-24">
         <article className="text-center">
           <h1 className="text-xl font-bold tracking-wider md:text-3xl">
-            Hey, I'm Jawad — glad you're here.
+            Hey, I&apos;m Jawad — glad you&apos;re here.
           </h1>
           <p className="mt-4 text-2xl leading-relaxed">
             Since beginning my journey in software development, I've been
