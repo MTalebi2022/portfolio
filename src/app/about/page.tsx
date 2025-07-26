@@ -36,12 +36,12 @@ const About = () => {
             Hey, I&apos;m Jawad — glad you&apos;re here.
           </h1>
           <p className="mt-4 text-2xl leading-relaxed">
-            Since beginning my journey in software development, I've been
+            Since beginning my journey in software development, I&apos;ve been
             passionately building projects that blend creativity and technology.
-            I've contributed to collaborative teams and continuously explored
-            new ways to solve problems with code. I'm quietly confident, deeply
-            curious, and always committed to sharpening my skills and delivering
-            meaningful digital experiences.
+            I&apos;ve contributed to collaborative teams and continuously
+            explored new ways to solve problems with code. I&apos;m quietly
+            confident, deeply curious, and always committed to sharpening my
+            skills and delivering meaningful digital experiences.
           </p>
         </article>
       </section>
