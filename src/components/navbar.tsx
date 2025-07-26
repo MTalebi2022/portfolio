@@ -12,7 +12,7 @@ const links = [
 
 const Navbar = () => {
   return (
-    <nav>
+    <nav className=''>
       <div className="align-element flex items-center justify-between px-6 py-4">
         <div>
           <Link href="/">
@@ -20,7 +20,7 @@ const Navbar = () => {
           </Link>
         </div>
         <div className="flex items-center space-x-8">
-          <ul className="flex space-x-6 text-sm font-medium md:space-x-12 md:text-2xl">
+          <ul className="flex space-x-4 text-sm font-medium md:space-x-12 md:text-2xl">
             {links.map((link) => {
               const { id, href, text } = link;
               return (

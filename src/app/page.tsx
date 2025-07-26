@@ -3,15 +3,12 @@ import Image from 'next/image';
 
 const Home = () => {
   return (
-    <div className="py-24">
-      <div className="align-element grid md:grid-cols-2 items-center gap-8">
+    <main className="py-24">
+      <section className="align-element grid md:grid-cols-2 items-center gap-8">
         <article>
           <h1 className="text-7xl font-bold tracking-wider">
-            I'm <span className="text-primary">Jawad</span>
-          </h1>
-          <p className="mt-4 text-3xl capitalize tracking-wide">
             Software Developer
-          </p>
+          </h1>
           <p className="mt-4 text-lg text-gray-600 dark:text-gray-400 leading-relaxed">
             Code meets creativity. I craft fast, responsive, and reliable
             applications for web, mobile, and desktop platforms.
@@ -35,8 +32,8 @@ const Home = () => {
             className="h-80 lg:h-96"
           />
         </article>
-      </div>
-    </div>
+      </section>
+    </main>
   );
 };
 export default Home;
